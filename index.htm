@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/658ec1ad9a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Barra de notificación</title>
+  </head>
+  <body>
+    <div class="botones">
+      <button onclick="mostrarCaja(mensajeCorrecto)">Correcto</button>
+      <button onclick="mostrarCaja(mensajeError)">Error</button>
+      <button onclick="mostrarCaja(mensajeInvalido)">Inválido</button>
+    </div>
+    <div id="caja"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
